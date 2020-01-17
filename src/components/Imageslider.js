@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
 import { Carousel, Button } from "react-bootstrap";
+import './ImageSlider.css';
 
 export default class Imageslider extends Component {
     render() {
         return (
-            <Carousel>
+  <Carousel>
   <Carousel.Item>
     <img
       className="d-block w-100"
@@ -19,7 +20,7 @@ export default class Imageslider extends Component {
   </Carousel.Item>
   <Carousel.Item>
     <img
-      className="d-block w-100"
+      className="d-block"
       src="assets/back2.jpg"
       alt="Second slide"
     />

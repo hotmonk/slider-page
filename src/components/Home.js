@@ -45,7 +45,7 @@ export default class Home extends Component {
                             <Card.Title>REDUCE</Card.Title>
                             <Image src="assets/pic3.jpg"  className="tile-pic rounded-circle"/>
                             <Card.Text>
-                            The last stage of the waste hierarchy is to recycle. To recycle something means that it will be transformed again into a raw material that can be shaped into a new item. There are very few materials on the earth that cannot be recycled.                            </Card.Text>
+                            The last stage of the waste hierarchy is to recycle. To recycle something means that it will be transformed again into a raw material that can be shaped into a new item. There are very few materials on the earth.                        </Card.Text>
                         </Card.Body>
                     </Card>
                     </Col> 

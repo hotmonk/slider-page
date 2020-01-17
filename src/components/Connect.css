@@ -1,0 +1,30 @@
+.social {
+    padding: 3rem;
+}
+
+.social a {
+    padding: 2.5rem;
+}
+.fb{
+    color: #3b5998;
+}
+.tw{
+    color: #00aced;
+}
+.gp{
+    color: #dd4b39;
+}
+.yt{
+    color: #c4302b;
+}
+.ig{
+    color: #3f729b;
+}
+
+.fb:hover,
+.tw:hover,
+.gp:hover,
+.yt:hover,
+.ig:hover{
+    color: #d5d5d5
+}
