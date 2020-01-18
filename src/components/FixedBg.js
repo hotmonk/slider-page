@@ -4,7 +4,7 @@ export default class FixedBg extends Component {
     render() {
         return (
             <figure>
-                <div class="fixed-wrap">
+                <div className="fixed-wrap">
                     <div id="fixed">
                         
                     </div>

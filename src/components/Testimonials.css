@@ -1,0 +1,79 @@
+.testimonials{
+    margin: 50px auto;
+}
+.testimonials h1{
+    text-align: center;
+    font-weight: bold;
+    color: #ff9800;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+}
+.headingHr
+{
+    content: '';
+    background: #ff9800;
+    display:block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+}
+.testimonials .row{
+    margin-top: 30px;
+}
+.col-md-4{
+    margin:40px auto;
+}
+.profile{
+    padding: 70px 10 px 10px;
+    background-color: #efefef;
+}
+.profile img{
+
+    transform: translateY(-50px);
+    /* position: absolute; */
+    left: cals(50%);
+    border: 10px solid white;
+}
+.user{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    align-content: center;
+}
+.profile h3{
+    font-size: 20px;
+    margin-top: 15px;
+    color: #ff9800;
+}
+span{
+    font-size: 12px;
+    color: #333;
+}
+blockquote{
+    font-size: 16px;
+    line-height: 30px;
+}
+blockquote::before{
+    content: open-quote;
+    font-size: 50px;
+    position: relative;
+    color: #ff9800;
+    line-height: 20px;
+    bottom: -15px;
+    right: 5px;
+}
+blockquote::after{
+    content: close-quote;
+    font-size: 50px;
+    position: relative;
+    color: #ff9800;
+    line-height: 10px;
+    bottom: -15px;
+    left: 5px;
+
+}
+.profile:hover{
+    box-shadow: 0 0 15px 5px rgba(0,0,0,0.2);
+    cursor: pointer;
+    transition: .5s;
+}

@@ -14,8 +14,8 @@ export default class CustomNavbar extends Component {
     <Nav className="ml-auto">
       <Nav.Link href="#home">Home</Nav.Link>
       <Nav.Link href="#link">About</Nav.Link>
-      <Nav.Link href="#home">Services</Nav.Link>
-      <Nav.Link href="#link">Team</Nav.Link>
+      <Nav.Link href="#home">Log In</Nav.Link>
+      <Nav.Link href="#link">Sign Up</Nav.Link>
       <Nav.Link href="#home">Contact</Nav.Link>      
     </Nav>
   </Navbar.Collapse>

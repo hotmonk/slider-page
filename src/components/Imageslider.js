@@ -14,7 +14,7 @@ export default class Imageslider extends Component {
     />
     <Carousel.Caption>
       <h2>First slide label</h2>
-      <Button variant="outline-dark">LOGIN</Button> &nbsp;
+      <Button variant="warning">LOGIN</Button> &nbsp;
       <Button variant="primary">Get Started</Button>
     </Carousel.Caption>
   </Carousel.Item>
@@ -26,8 +26,9 @@ export default class Imageslider extends Component {
     />
 
     <Carousel.Caption>
-      <h3>Second slide label</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    <h2>First slide label</h2>
+      <Button variant="warning">LOGIN</Button> &nbsp;
+      <Button variant="primary">Get Started</Button>
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item>
@@ -38,8 +39,9 @@ export default class Imageslider extends Component {
     />
 
     <Carousel.Caption>
-      <h3>Third slide label</h3>
-      <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+    <h2>First slide label</h2>
+      <Button variant="warning">LOGIN</Button> &nbsp;
+      <Button variant="primary">Get Started</Button>
     </Carousel.Caption>
   </Carousel.Item>
 </Carousel>

@@ -13,11 +13,11 @@ export default class Connect extends Component {
                         <h2>Connect</h2>
                     </div>
                     <div class="col-12 social padding">
-                        <a href="#"><FontAwesomeIcon className="fa tw" icon={faTwitter} size="4x"></FontAwesomeIcon></a>
-                        <a href="#"><FontAwesomeIcon className="fa fb" icon={faFacebookF} size="4x"></FontAwesomeIcon></a>
-                        <a href="#"><FontAwesomeIcon className="fa ig" icon={faInstagram} size="4x"></FontAwesomeIcon></a>
-                        <a href="#"><FontAwesomeIcon className="fa yt" icon={faYoutube} size="4x"></FontAwesomeIcon></a>
-                        <a href="#"><FontAwesomeIcon className="fa gp" icon={faGooglePlus} size="4x"></FontAwesomeIcon></a>
+                        <a href="/"><FontAwesomeIcon className="fa tw" icon={faTwitter} size="4x"></FontAwesomeIcon></a>
+                        <a href="/"><FontAwesomeIcon className="fa fb" icon={faFacebookF} size="4x"></FontAwesomeIcon></a>
+                        <a href="/"><FontAwesomeIcon className="fa ig" icon={faInstagram} size="4x"></FontAwesomeIcon></a>
+                        <a href="/"><FontAwesomeIcon className="fa yt" icon={faYoutube} size="4x"></FontAwesomeIcon></a>
+                        <a href="/"><FontAwesomeIcon className="fa gp" icon={faGooglePlus} size="4x"></FontAwesomeIcon></a>
                      </div>
                 </div>
                 

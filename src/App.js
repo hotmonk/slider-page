@@ -6,6 +6,7 @@ import Imageslider from './components/Imageslider';
 import Footer from './components/Footer';
 import Connect from './components/Connect';
 import FixedBg from './components/FixedBg';
+import Testimonials from './components/Testimonials';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Imageslider/>
       <Home/>
       <FixedBg/>
+      <Testimonials/>
       <Connect/>
       <Footer/>
     </div>
