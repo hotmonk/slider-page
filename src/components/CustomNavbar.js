@@ -7,15 +7,13 @@ export default class CustomNavbar extends Component {
         return (
 
           <Navbar bg="light" expand="md" sticky="top" className="navbar">
-            {/* make it semi transparent */}
-  <Navbar.Brand href="#home">LOGO</Navbar.Brand>
+  <Navbar.Brand href="#home"><img className="logo" src="assets/logo.png"/></Navbar.Brand>
   <Navbar.Toggle aria-controls="basic-navbar-nav" />
   <Navbar.Collapse id="basic-navbar-nav">
     <Nav className="ml-auto">
       <Nav.Link href="#home">Home</Nav.Link>
       <Nav.Link href="#link">About</Nav.Link>
-      <Nav.Link href="#home">Log In</Nav.Link>
-      <Nav.Link href="#link">Sign Up</Nav.Link>
+      <Nav.Link  href="#home">Log In</Nav.Link>
       <Nav.Link href="#home">Contact</Nav.Link>      
     </Nav>
   </Navbar.Collapse>

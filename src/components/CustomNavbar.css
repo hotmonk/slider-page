@@ -1,0 +1,14 @@
+.navbar{    
+    opacity: 0.8;
+    filter: alpha(opacity=100); 
+    transition: 0.3s;
+}
+.navbar:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
+    transition: 0.3s;
+    
+  }
+  .logo{
+      height: 30px;
+  }

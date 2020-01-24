@@ -24,3 +24,13 @@ hr.light-100{
 .footer-bottom{
     text-align: center;
 }
+.logo{
+    height: 30px;
+    color: aliceblue;
+}
+.HoriLine{
+    border-top: 1px solid #d5d5d5;
+    width: 75%;
+    margin-top: .8rem;
+    margin-bottom: 1rem;
+}

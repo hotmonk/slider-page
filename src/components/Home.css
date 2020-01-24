@@ -19,3 +19,26 @@
   h3 {
     margin-bottom: 1em;
   }
+  .articleImg{
+    height: 20rem;
+    align: center !important;
+    border-radius: 15px;
+  }
+
+.articleImg:hover{
+    box-shadow: 0 0 15px 5px rgba(0,0,0,0.2);
+    cursor: pointer;
+    transition: .5s;
+}
+.articleImg{
+    padding: 70px 10 px 10px;
+    background-color: #efefef;
+    border-style: solid;
+}
+.articleImg img{
+
+    transform: translateY(-50px);
+    /* position: absolute; */
+    left: cals(50%);
+    border: 10px solid white;
+}

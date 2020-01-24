@@ -7,11 +7,21 @@ export default class Home extends Component {
         return (
             <div>
                 <Jumbotron>
-                    <h2>How you can save the planet</h2>
-                    <p>Imagine 15 grocery bags filled with plastic trash piled up on every single yard of shoreline in the world. That’s how much land-based plastic trash ended up in the world’s oceans in just one year. The world generates at least 3.5 million tons of plastic and other solid waste a day, 10 times the amount a century ago, according to World Bank researchers. The U.S. is the king of trash, producing a world-leading 250 million tons a year—roughly 4.4 pounds of trash per person per day.</p>
-                    <Button color="primary">Know more</Button>
+                    <div className="container-fluid padding">
+                        <div className="row padding">
+                            <div className="col-md-12 col-lg-8">
+                                <h2>How you can save the planet</h2>
+                                <p>The simple answer: We aim to send nothing to a landfill. We reduce what we need, reuse as much as we can, send little to be recycled, and compost what we cannot. </p>
+                                <p>The less simple answer: It's really about redefining the system. We currently live in a linear economy where we take resources from the earth and then dump them in a giant hole in the ground. The goal of zero waste is to move to a circular economy where we write trash out of existence. The circular economy mimics nature in that there is no trash in nature.
+                                Instead of discarding resources, we create a system where all resources can be resumed fully back into the system.</p>
+                            </div>
+                            <div className="col-lg-4">
+                                <img className="articleImg" src="assets/article.jpg"/>
+                            </div>
+                        </div>
+                    </div>
                 </Jumbotron>
-
+                <hr></hr>
                 <Row className="show-grid text-center" margin-left="20px">
                     <Col xs={12} sm={4} className="tile-wrapper">
                     <Card bg="dark" text="white" >
@@ -60,6 +70,7 @@ export default class Home extends Component {
                         <p></p>
                     </Col>  */}
                 </Row>
+
             </div>
         )
     }

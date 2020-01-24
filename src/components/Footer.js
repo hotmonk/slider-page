@@ -6,7 +6,8 @@ class Footer extends Component {
     return (
       <div className="main-footer footer">
           <div className="container">
-              <div className="row ">
+          <img className="logo" src="assets/logo.png"/>
+              {/* <div className="row ">
                   <div className="col-md-4 col-sm-6">
                       <br></br>
                       <h4>LOGO 3R</h4>
@@ -19,6 +20,7 @@ class Footer extends Component {
                       </ul>
                   </div>
                   <div className="col-md-4 col-sm-6">
+                  <img className="logo" src="assets/logo.png"/>
                       <hr className="light"></hr>
                       <h5>Our Hours</h5>
                       <hr className="light"></hr>
@@ -39,14 +41,14 @@ class Footer extends Component {
                           <li>Lorem ipsum</li>
                       </ul>
                   </div> 
-              </div>
+              </div> */}
               
               </div>
           
           <div className="footer-bottom">
-          <hr class="light-100"></hr>
+          <hr class="light-100" className="HoriLine"></hr>
               <p className="text xs-center">
-                  &copy;{new Date().getFullYear()} 3R. All rights reserved
+                  &copy;{new Date().getFullYear()}  All rights reserved
             </p>
             </div>
         

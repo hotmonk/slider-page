@@ -15,7 +15,7 @@ function App() {
       <Imageslider/>
       <Home/>
       <FixedBg/>
-      <Testimonials/>
+      {/* <Testimonials/> */}
       <Connect/>
       <Footer/>
     </div>
